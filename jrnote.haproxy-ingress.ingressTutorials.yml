@@ -1,0 +1,43 @@
+setting:
+ https.proxy:
+ scraping_url: https://www.haproxy.com/documentation/kubernetes-ingress
+ deepl_enable: false
+ deepl_apikey: "todo"
+jrnote:
+- ingressTutorialsAddAnAuxiliaryConfig
+- ingressTutorialsLoadBalanceFastCGIApp
+- ingressTutorialsLoadBalanceTraffic
+- ingressTutorialsRouteHTTPTraffic
+- ingressTutorialsLoadBalanceTCPServices
+- ingressTutorialsTerminateSslTls
+
+ingressTutorialsAddAnAuxiliaryConfig_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/ingress-tutorials/auxiliary-config-file/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+ingressTutorialsLoadBalanceFastCGIApp_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/ingress-tutorials/load-balance-fastcgi/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+ingressTutorialsLoadBalanceTraffic_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/ingress-tutorials/load-balancing/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+ingressTutorialsRouteHTTPTraffic_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/ingress-tutorials/routing/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+ingressTutorialsLoadBalanceTCPServices_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/ingress-tutorials/tcp/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+ingressTutorialsTerminateSslTls_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/ingress-tutorials/terminate-ssl/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+

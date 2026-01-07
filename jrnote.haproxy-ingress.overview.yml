@@ -1,0 +1,12 @@
+setting:
+ https.proxy:
+ scraping_url: https://www.haproxy.com/documentation/kubernetes-ingress
+ deepl_enable: false
+ deepl_apikey: "todo"
+jrnote:
+- overview
+
+overview_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/overview/
+ section: //h1[@data-section='HAProxy Kubernetes Ingress Controller']
+ componet: ./../following-sibling::main/h2

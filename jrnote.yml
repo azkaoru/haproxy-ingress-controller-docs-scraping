@@ -1,0 +1,20 @@
+setting:
+ https.proxy:
+ scraping_url: https://www.haproxy.com/documentation/kubernetes-ingress
+ deepl_enable: false
+ deepl_apikey: "todo"
+
+jrnote:
+- gatewayApiTutorialsEnableTheGatewayAPI
+- gatewayApiTutorialsUseTcpRoute
+
+gatewayApiTutorialsEnableTheGatewayAPI_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/gateway-api/enable-gateway-api/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+gatewayApiTutorialsUseTcpRoute_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/gateway-api/tcproute/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+

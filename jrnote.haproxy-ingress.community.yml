@@ -1,0 +1,133 @@
+setting:
+ https.proxy:
+ scraping_url: https://www.haproxy.com/documentation/kubernetes-ingress
+ deepl_enable: false
+ deepl_apikey: "todo"
+jrnote:
+- communityReleaseRotes
+- communityEndOfLifeDates
+- communityInstallAws
+- communityInstallAzure
+- communityInstallExternalMode
+- communityInstallGoogle
+- communityInstallOnPrem
+- communityInstallRanchar
+- communityUpgrade
+- communityUninstall
+- communityConfigurationConfigMap
+- communityConfigurationBackendCRD
+- communityConfigurationDefaultsCRD
+- communityConfigurationGlobalCRD
+- communityConfigurationIngressAnnotations
+- communityConfigurationIngressClass
+- communityConfigurationServiceAnnotations
+- communityConfigurationStartupArgs
+- communityConfigurationTcpCrd
+- communityConfigurationHelmValuesFiles
+
+communityChangelog_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/changelog/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+communityReleaseRotes_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/release-notes/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+communityEndOfLifeDates_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/end-of-life-dates/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+communityInstallAws_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/installation/aws/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+communityInstallAzure_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/installation/azure/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+communityInstallExternalMode_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/installation/external-mode-on-premises/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+communityInstallGoogle_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/installation/google/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+communityInstallOnPrem_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/installation/on-prem/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+communityInstallRanchar_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/installation/rancher/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+communityUpgrade_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/upgrade/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+communityUninstall_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/uninstall/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+communityConfigurationConfigMap_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/configuration-reference/configmap/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+communityConfigurationBackendCRD_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/configuration-reference/backend-crd/
+ section: //h1
+ componet: ./../../main/*//h2
+
+communityConfigurationDefaultsCRD_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/configuration-reference/defaults-crd/
+ section: //h1
+ componet: ./../../main/*//h2
+
+communityConfigurationGlobalCRD_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/configuration-reference/global-crd/
+ section: //h1
+ componet: ./../../main/*//h2
+
+communityConfigurationIngressAnnotations_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/configuration-reference/ingress/
+ section: //h1
+ componet: ./../following-sibling::main//h2
+
+communityConfigurationIngressClass_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/configuration-reference/ingressclass/
+ section: //h1
+ componet: ./../following-sibling::main//h2
+
+communityConfigurationServiceAnnotations_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/configuration-reference/service/
+ section: //h1
+ componet: ./../following-sibling::main//h2
+
+communityConfigurationStartupArgs_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/configuration-reference/startupargs/
+ section: //h1
+ componet: ./../following-sibling::main//h2
+
+communityConfigurationTcpCrd_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/configuration-reference/tcps-crd/
+ section: //h1
+ componet: ./../../main/*//h2
+
+communityConfigurationHelmValuesFiles_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/community/configuration-reference/values/
+ section: //h1
+ componet: ./../following-sibling::main//h2
+ #componet: ./../../main/*//h2
+

@@ -1,0 +1,24 @@
+setting:
+ https.proxy:
+ scraping_url: https://www.haproxy.com/documentation/kubernetes-ingress
+ deepl_enable: false
+ deepl_apikey: "todo"
+jrnote:
+- adminEnableLogging
+- adminViewMetrics
+- adminTroubleshoot
+
+adminEnableLogging_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/administration/logging/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+adminViewMetrics_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/administration/metrics/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+adminTroubleshoot_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/administration/troubleshooting/
+ section: //h1
+ componet: ./../following-sibling::main/h2

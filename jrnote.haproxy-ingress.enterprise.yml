@@ -1,0 +1,153 @@
+setting:
+ https.proxy:
+ scraping_url: https://www.haproxy.com/documentation/kubernetes-ingress
+ deepl_enable: false
+ deepl_apikey: "todo"
+jrnote:
+- enterpriseReleaseRotes
+- enterpriseEndOfLifeDates
+- enterpriseInstallAzure
+- enterpriseInstallExternalMode
+- enterpriseInstallGoogle
+#- enterpriseInstallAws
+- enterpriseInstallOnPrem
+- enterpriseInstallRanchar
+- enterpriseUpgradeOnAws
+- enterpriseUpgradeOnPrem
+- enterpriseSecurityWaf
+- enterpriseSupportReportIssue
+- enterpriseUninstall
+- enterpriseConfigurationConfigMap
+- enterpriseConfigurationBackendCRD
+- enterpriseConfigurationDefaultsCRD
+- enterpriseConfigurationGlobalCRD
+- enterpriseConfigurationIngressAnnotations
+- enterpriseConfigurationIngressClass
+- enterpriseConfigurationServiceAnnotations
+- enterpriseConfigurationStartupArgs
+- enterpriseConfigurationTcpCrd
+- enterpriseConfigurationHelmValuesFiles
+
+
+enterpriseChangelog_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/changelog/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseReleaseRotes_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/release-notes/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseEndOfLifeDates_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/end-of-life-dates/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseInstallAws_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/installation/aws/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseInstallAzure_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/installation/azure/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseInstallExternalMode_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/installation/external-mode-on-premises/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseInstallGoogle_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/installation/google/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseInstallOnPrem_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/installation/on-prem/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseInstallRanchar_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/installation/rancher/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseUpgradeOnAws_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/upgrade/upgrade-on-aws/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseUpgradeOnPrem_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/upgrade/upgrade-on-premises/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseSecurityWaf_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/security/modsecurity/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseSupportReportIssue_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/support/report-an-issue/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+
+enterpriseUninstall_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/uninstall/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseConfigurationConfigMap_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/configuration-reference/configmap/
+ section: //h1
+ componet: ./../following-sibling::main/h2
+
+enterpriseConfigurationBackendCRD_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/configuration-reference/backend-crd/
+ section: //h1
+ componet: ./../../main/*//h2
+
+enterpriseConfigurationDefaultsCRD_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/configuration-reference/defaults-crd/
+ section: //h1
+ componet: ./../../main/*//h2
+
+enterpriseConfigurationGlobalCRD_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/configuration-reference/global-crd/
+ section: //h1
+ componet: ./../../main/*//h2
+
+enterpriseConfigurationIngressAnnotations_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/configuration-reference/ingress/
+ section: //h1
+ componet: ./../following-sibling::main//h2
+
+enterpriseConfigurationIngressClass_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/configuration-reference/ingressclass/
+ section: //h1
+ componet: ./../following-sibling::main//h2
+
+enterpriseConfigurationServiceAnnotations_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/configuration-reference/service/
+ section: //h1
+ componet: ./../following-sibling::main//h2
+
+enterpriseConfigurationStartupArgs_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/configuration-reference/startupargs/
+ section: //h1
+ componet: ./../following-sibling::main//h2
+
+enterpriseConfigurationTcpCrd_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/configuration-reference/tcps-crd/
+ section: //h1
+ componet: ./../../main/*//h2
+
+enterpriseConfigurationHelmValuesFiles_scraping:
+ url: https://www.haproxy.com/documentation/kubernetes-ingress/enterprise/configuration-reference/values/
+ section: //h1
+ componet: ./../following-sibling::main//h2
+ #componet: ./../../main/*//h2
+
